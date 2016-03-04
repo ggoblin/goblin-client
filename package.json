@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/ggoblin/goblin-client/issues"
   },
-  "homepage": "https://github.com/ggoblin/goblin-client#readme"
+  "homepage": "https://github.com/ggoblin/goblin-client#readme",
+  "devDependencies": {
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  }
 }
