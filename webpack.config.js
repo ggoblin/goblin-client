@@ -36,7 +36,7 @@ if (process.env.NODE_ENV === 'production') {
 var config = {
 	entry: './index.jsx',
 	output: {
-		path: path.join(__dirname, 'build/static/build'),
+		path: path.join(__dirname, 'static/build'),
 		publicPath: "/static/build/",
 		filename: '[name].js'
 	},
